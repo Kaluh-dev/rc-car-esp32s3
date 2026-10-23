@@ -5,6 +5,7 @@
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A4")
 	(title_block
+		(title "ринципова схема робота-автомобіля на ESP32-S3-CAM")
 		(date "mar. 31 mars 2015")
 	)
 	(lib_symbols
@@ -3463,6 +3464,16 @@
 		)
 		(uuid "5cff431b-624f-4aa2-981e-096faba94974")
 	)
+	(text "Камера OV2640 вставляється в роз'єм FPC на платі, її сигнали розведені на самій платі."
+		(exclude_from_sim no)
+		(at 127.254 114.554 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e113dc0d-ca9b-42c7-a1a2-5bbed29ab648")
+	)
 	(junction
 		(at 152.4 57.15)
 		(diameter 0)
@@ -5047,7 +5058,7 @@
 		)
 		(uuid "bd8fc04e-8706-4ee3-975f-09a926ba1cce")
 	)
-	(label "IO43 (TX)"
+	(label "ESP_TX"
 		(at 105.41 95.25 0)
 		(effects
 			(font
